@@ -37,8 +37,8 @@
 
 #### Brand Colors
 ```
-Primary Purple (lightPurple): #917DF0
-Amber (badge):               #FFC107 (default amber)
+Primary Purple (lightPurple): #917DF0  (ColorConstants.lightPurple from color_constants.dart)
+Amber (badge):                #FFC107  (ColorConstants.amber from color_constants.dart)
 ```
 
 #### Light Theme

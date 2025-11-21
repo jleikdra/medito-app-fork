@@ -188,29 +188,32 @@ Active:        #917DF0 (lightPurple)
 
 ### Display Logic
 ```
-if (streak < 100) {
+Display Mode Decision:
+  IF streak < 100 THEN
     show: Consistency Score (0-100%)
     icon: CircularProgressIndicator
-} else {
+  ELSE
     show: Streak Count
     icon: Fire Icon
-}
+  END IF
 
-if (completedToday) {
+Visual State:
+  IF completedToday THEN
     style: Bold text, animated gradient, purple icon
-} else {
+  ELSE
     style: Normal text, no animation, grey icon
-}
+  END IF
 ```
 
 ### Badge Logic
 ```
-if (!hasSeenStreakCircle) {
+Badge Display Decision:
+  IF NOT hasSeenStreakCircle THEN
     display: Amber badge (8dp) on top-left
     onTap: markAsSeen() + open stats
-} else {
+  ELSE
     onTap: open stats
-}
+  END IF
 ```
 
 ## File Dependencies

@@ -20,7 +20,7 @@ The streak widget appears in two contexts:
 ### Design Specifications
 
 #### Visual Constants (from `streak_circle_constants.dart`)
-```dart
+```
 borderRadius: 30.0 dp
 iconSize: 20.0 dp
 innerIconSize: 18.0 dp
