@@ -54,17 +54,17 @@ Concise reference with all design tokens:
 ### File Locations
 
 #### Flutter (In-App Widget)
-- Main Widget: [`/lib/views/home/widgets/stats/streak_circle.dart`](./lib/views/home/widgets/stats/streak_circle.dart)
-- Controller: [`/lib/views/home/widgets/stats/streak_circle_controller.dart`](./lib/views/home/widgets/stats/streak_circle_controller.dart)
-- Constants: [`/lib/views/home/widgets/stats/streak_circle_constants.dart`](./lib/views/home/widgets/stats/streak_circle_constants.dart)
+- Main Widget: `/lib/views/home/widgets/stats/streak_circle.dart`
+- Controller: `/lib/views/home/widgets/stats/streak_circle_controller.dart`
+- Constants: `/lib/views/home/widgets/stats/streak_circle_constants.dart`
 
 #### Android (Home Screen Widgets)
-- Meditation Widget: [`/android/app/src/main/kotlin/meditofoundation/medito/widget/MeditationWidget.kt`](./android/app/src/main/kotlin/meditofoundation/medito/widget/MeditationWidget.kt)
-- Consistency Widget: [`/android/app/src/main/kotlin/meditofoundation/medito/widget/ConsistencyWidget.kt`](./android/app/src/main/kotlin/meditofoundation/medito/widget/ConsistencyWidget.kt)
-- Drawables: [`/android/app/src/main/res/drawable/`](./android/app/src/main/res/drawable/)
+- Meditation Widget: `/android/app/src/main/kotlin/meditofoundation/medito/widget/MeditationWidget.kt`
+- Consistency Widget: `/android/app/src/main/kotlin/meditofoundation/medito/widget/ConsistencyWidget.kt`
+- Drawables: `/android/app/src/main/res/drawable/`
 
 #### Service Layer
-- Home Widget Service: [`/lib/services/home_widget_service.dart`](./lib/services/home_widget_service.dart)
+- Home Widget Service: `/lib/services/home_widget_service.dart`
 
 ---
 
@@ -175,12 +175,12 @@ Concise reference with all design tokens:
 ### Streak Freeze
 Allows users to preserve their streak during breaks. Freeze dates are included in the calendar display.
 
-**Implementation:** [`/lib/views/home/widgets/bottom_sheet/stats/streak_freeze_suggestion_widget.dart`](./lib/views/home/widgets/bottom_sheet/stats/streak_freeze_suggestion_widget.dart)
+**Implementation:** `/lib/views/home/widgets/bottom_sheet/stats/streak_freeze_suggestion_widget.dart`
 
 ### Display Toggle
 Users can toggle between showing streak count and consistency percentage.
 
-**Provider:** [`/lib/providers/streak_circle_display_provider.dart`](./lib/providers/streak_circle_display_provider.dart)
+**Provider:** `/lib/providers/streak_circle_display_provider.dart`
 
 ---
 
