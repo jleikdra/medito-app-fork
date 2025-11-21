@@ -28,7 +28,7 @@
 | Streak Text | 24 sp bold | Main number display |
 | Label Text | 14 sp normal | "days" or "%" label |
 | Day Label Text | 9 sp | Calendar day letters |
-| Activity Circle | 20 × 20 dp | Calendar day indicators |
+| Activity Circle | 20 × 20 dp | Display size (intrinsic: 24 × 24 dp) |
 | Spacer (after streak) | 4 dp | Gap between sections |
 | Spacer (after label) | 6 dp | Consistency widget gap |
 | Spacer (day to circle) | 2 dp | Calendar spacing |
@@ -38,7 +38,7 @@
 #### Brand Colors
 ```
 Primary Purple (lightPurple): #917DF0  (ColorConstants.lightPurple from color_constants.dart)
-Amber (badge):                #FFC107  (ColorConstants.amber from color_constants.dart)
+Amber (badge):                #EF5E55  (ColorConstants.amber from color_constants.dart - coral red)
 ```
 
 #### Light Theme
@@ -130,11 +130,11 @@ No animations (static design)
 - Help icon path: `MeditoIcons.help` (error state)
 
 ### Home Screen (Android)
-| File | Size | Usage |
-|------|------|-------|
+| File | Size (Intrinsic / Display) | Usage |
+|------|-------------------------------|-------|
 | ic_fire_purple.xml | 24 × 24 dp | Active fire icon |
 | ic_fire_grey.xml | 24 × 24 dp | Inactive fire icon |
-| streak_day_checked_purple.xml | 24 × 24 dp | Completed day (purple circle + white check) |
+| streak_day_checked_purple.xml | 24 × 24 dp / 20 × 20 dp | Completed day (purple circle + white check) |
 | streak_day_checked.xml | - | Light mode variant (white + purple check) |
 | streak_day_unchecked.xml | - | Incomplete day (semi-transparent gray) |
 | ic_checkmark_purple.xml | - | Purple checkmark overlay |
