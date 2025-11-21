@@ -40,8 +40,9 @@ animationDuration: 3 seconds
 
 - **Inactive State**:
   - Border: None
-  - Icon: Gray fire (theme's onSurface color)
+  - Icon: Gray fire (theme's onSurface color, typically #000000 in light mode, #FFFFFF in dark mode)
   - Text: Normal weight
+  - Background: Theme's card color
 
 #### Layout Structure
 ```

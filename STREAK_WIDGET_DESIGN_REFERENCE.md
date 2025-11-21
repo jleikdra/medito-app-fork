@@ -38,8 +38,10 @@
 #### Brand Colors
 ```
 Primary Purple (lightPurple): #917DF0  (ColorConstants.lightPurple from color_constants.dart)
-Amber (badge):                #EF5E55  (ColorConstants.amber from color_constants.dart - coral red)
+Badge Color:                  #EF5E55  (ColorConstants.amber from color_constants.dart)
 ```
+
+Note: Despite the variable name "amber", the actual color is a coral/red shade.
 
 #### Light Theme
 ```
@@ -273,7 +275,7 @@ Quick Reference:  STREAK_WIDGET_DESIGN_REFERENCE.md (this file)
 
 ## Version Notes
 
-This design reference is based on the current implementation as of 2025-11-21.
+This design reference documents the current implementation of the streak widget.
 
 ### Recent Changes
 - Theme-aware colors for widgets (light/dark/system)
